@@ -4,13 +4,13 @@ prefix="c" %> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <c:set var="contextPath" value="<%=request.getContextPath()%>" />
 <c:set var="dt" value="<%=System.currentTimeMillis()%>" />
 <html
-  lang="en"
-  class="light-style layout-menu-fixed"
-  dir="ltr"
-  data-theme="theme-default"
-  data-assets-path="${contextPath}/WEB-INF/frontend/assets/"
-  data-template="vertical-menu-template-free"
->
+<%--        lang="en"--%>
+<%--        class="light-style layout-menu-fixed"--%>
+<%--        dir="ltr"--%>
+<%--        data-theme="theme-default"--%>
+<%--        data-assets-path="../../../WEB-INF/frontend/assets/"--%>
+<%--        data-template="vertical-menu-template-free"--%>
+
   <head>
     <meta charset="utf-8" />
     <meta
