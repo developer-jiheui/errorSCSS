@@ -8,7 +8,7 @@
         class="light-style layout-menu-fixed"
         dir="ltr"
         data-theme="theme-default"
-        data-assets-path="${contextPath}/WEB-INF/frontend/assets/"
+        data-assets-path="${contextPath}/frontend/assets/"
         data-template="vertical-menu-template-free"
 >
 <head>
@@ -18,8 +18,7 @@
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
   />
 
-  <title>
-      "${contextPath}"
+  <title>멈무멈멈
   </title>
 
   <meta name="description" content="" />
@@ -28,7 +27,7 @@
   <link
           rel="icon"
           type="image/x-icon"
-          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/img/favicon/favicon.ico"
+          href="${contextPath}/frontend/assets/img/favicon/favicon.ico"
   />
 
   <!-- Fonts -->
@@ -42,43 +41,43 @@
   <!-- Icons. Uncomment required icon fonts -->
   <link
           rel="stylesheet"
-          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/fonts/boxicons.css"
+          href="${contextPath}/frontend/assets/vendor/fonts/boxicons.css"
   />
 
   <!-- Core CSS -->
   <link
           rel="stylesheet"
-          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/css/core.css"
+          href="${contextPath}/frontend/assets/vendor/css/core.css"
           class="template-customizer-core-css"
   />
   <link
           rel="stylesheet"
-          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/css/theme-default.css"
+          href="${contextPath}/frontend/assets/vendor/css/theme-default.css"
           class="template-customizer-theme-css"
   />
   <link
           rel="stylesheet"
-          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/css/demo.css"
+          href="${contextPath}/frontend/assets/css/demo.css"
   />
 
   <!-- Vendors CSS -->
   <link
           rel="stylesheet"
-          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+          href="${contextPath}/frontend/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
   />
 
   <link
           rel="stylesheet"
-          href="${contextPath}/WEB-INF/frontend/assets/vendor/libs/apex-charts/apex-charts.css"
+          href="${contextPath}/frontend/assets/vendor/libs/apex-charts/apex-charts.css"
   />
 
   <!-- Page CSS -->
 
   <!-- Helpers -->
-  <script src="${contextPath}/WEB-INF/frontend/assets/vendor/js/helpers.js"></script>
+  <script src="${contextPath}/frontend/assets/vendor/js/helpers.js"></script>
 
   <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
   <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-  <script src="${contextPath}/WEB-INF/frontend/assets/js/config.js"></script>
+  <script src="${contextPath}/frontend/assets/js/config.js"></script>
 </head>
 </html>
