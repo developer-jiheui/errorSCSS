@@ -1,16 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<c:set var="contextPath" value="<%=request.getContextPath()%>"/>
-<c:set var="dt" value="<%=System.currentTimeMillis()%>"/>
+         pageEncoding="UTF-8"%> <%@ taglib uri="http://java.sun.com/jsp/jstl/core"
+                                           prefix="c" %> <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<c:set var="contextPath" value="<%=request.getContextPath()%>" />
+<c:set var="dt" value="<%=System.currentTimeMillis()%>" />
 <html
-<%--        lang="en"--%>
-<%--        class="light-style layout-menu-fixed"--%>
-<%--        dir="ltr"--%>
-<%--        data-theme="theme-default"--%>
-<%--        data-assets-path="../../../WEB-INF/frontend/assets/"--%>
-<%--        data-template="vertical-menu-template-free"--%>
+        lang="en"
+        class="light-style layout-menu-fixed"
+        dir="ltr"
+        data-theme="theme-default"
+        data-assets-path="${contextPath}/WEB-INF/frontend/assets/"
+        data-template="vertical-menu-template-free"
 >
 <head>
   <meta charset="utf-8" />
@@ -19,12 +18,18 @@
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
   />
 
-  <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+  <title>
+      "${contextPath}"
+  </title>
 
   <meta name="description" content="" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="../../../WEB-INF/frontend/assets/img/favicon/favicon.ico" />
+  <link
+          rel="icon"
+          type="image/x-icon"
+          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/img/favicon/favicon.ico"
+  />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,24 +40,45 @@
   />
 
   <!-- Icons. Uncomment required icon fonts -->
-  <link rel="stylesheet" href="../../../WEB-INF/frontend/assets/vendor/fonts/boxicons.css" />
+  <link
+          rel="stylesheet"
+          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/fonts/boxicons.css"
+  />
 
   <!-- Core CSS -->
-  <link rel="stylesheet" href="../../../WEB-INF/frontend/assets/vendor/css/core.css" class="template-customizer-core-css" />
-  <link rel="stylesheet" href="../../../WEB-INF/frontend/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-  <link rel="stylesheet" href="../../../WEB-INF/frontend/assets/css/demo.css" />
+  <link
+          rel="stylesheet"
+          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/css/core.css"
+          class="template-customizer-core-css"
+  />
+  <link
+          rel="stylesheet"
+          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/css/theme-default.css"
+          class="template-customizer-theme-css"
+  />
+  <link
+          rel="stylesheet"
+          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/css/demo.css"
+  />
 
   <!-- Vendors CSS -->
-  <link rel="stylesheet" href="../../../WEB-INF/frontend/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+  <link
+          rel="stylesheet"
+          href="/mongnewmong/src/main/webapp/WEB-INF/frontend/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+  />
 
-  <link rel="stylesheet" href="../../../WEB-INF/frontend/assets/vendor/libs/apex-charts/apex-charts.css" />
+  <link
+          rel="stylesheet"
+          href="${contextPath}/WEB-INF/frontend/assets/vendor/libs/apex-charts/apex-charts.css"
+  />
 
   <!-- Page CSS -->
 
   <!-- Helpers -->
-  <script src="../../../WEB-INF/frontend/assets/vendor/js/helpers.js"></script>
+  <script src="${contextPath}/WEB-INF/frontend/assets/vendor/js/helpers.js"></script>
 
   <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
   <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-  <script src="../../../WEB-INF/frontend/assets/js/config.js"></script>
+  <script src="${contextPath}/WEB-INF/frontend/assets/js/config.js"></script>
 </head>
+</html>

@@ -19,7 +19,7 @@
       series: [
         {
           name: '2021',
-          data: [18, 7, 15, 29, 18, 12, 9]
+          data: [19, 7, 15, 29, 18, 12, 9]
         },
         {
           name: '2020',
@@ -278,7 +278,7 @@
   // --------------------------------------------------------------------
   const growthChartEl = document.querySelector('#growthChart'),
     growthChartOptions = {
-      series: [78],
+      series: [90],
       labels: ['Growth'],
       chart: {
         height: 240,

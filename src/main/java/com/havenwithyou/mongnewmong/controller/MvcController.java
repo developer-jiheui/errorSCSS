@@ -9,4 +9,7 @@ public class MvcController {
     public String welcome() {
         return "index";
     }
+
+    @GetMapping(value = {"/home"})
+    public String home() {return "home";}
 }
