@@ -3,12 +3,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <c:set var="contextPath" value="<%=request.getContextPath()%>"/>
-<c:set var="dt" value="<%=System.currentTimeMillis()%>"/>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 
-</body>
-</html>
+<c:set var="dt" value="<%=System.currentTimeMillis()%>"/>
+
+
+<jsp:include page="/WEB-INF/views/layout/header.jsp"/>
+<jsp:include page="/WEB-INF/views/layout/sidebar.jsp"/>
+<jsp:include page="/WEB-INF/views/layout/navbar.jsp"/>
+
+<jsp:include page="/WEB-INF/views/page_contents/home.jsp"/>
+
+<jsp:include page="/WEB-INF/views/layout/footer.jsp"/>
