@@ -1,8 +1,4 @@
 @charset "UTF-8";
-.root{
-    --bs-nav-bold: rgba(41, 39, 51, 0.9);
-    --bs-nav-font: rgba(41, 39, 51, 0.9);
-}
 .layout-navbar-fixed .layout-wrapper:not(.layout-horizontal) .layout-page:before {
     content: "";
     width: 100%;
@@ -643,7 +639,7 @@ a:hover {
 }
 
 .navbar-detached {
-    box-shadow: 0 0 0.375rem 0.25rem rgba(251, 200, 190, 0.9);
+    box-shadow: 0 0 0.375rem 0.25rem rgba(234, 212, 208, 0.93);
 }
 
 .layout-navbar-fixed .layout-page:before {
@@ -700,7 +696,7 @@ a:hover {
     background: linear-gradient(#fff 41%, rgba(255, 255, 255, 0.11) 95%, rgba(255, 255, 255, 0));
 }
 .bg-menu-theme .menu-text {
-    color: #7f5e56;
+    color: var(--bs-nav-font);
 }
 .bg-menu-theme .menu-header {
     color: #ddcdc5;
@@ -752,7 +748,7 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
     color: rgba(250, 175, 158, 0.9);
 }
 .bg-menu-theme .menu-inner > .menu-item.active > .menu-link {
-    color: var(--b);
+    color: var(--bs-nav-bold);
     background-color: rgba(255, 227, 221, 0.9)
     !important;
 }

@@ -40,7 +40,7 @@
                                 <!-- Connections -->
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
-                                        <img src="../assets/img/icons/brands/google.png" alt="google" class="me-3" height="30" />
+                                        <img src="${contextPath}/frontend/assets/img/icons/brands/google.png" alt="google" class="me-3" height="30" />
                                     </div>
                                     <div class="flex-grow-1 row">
                                         <div class="col-9 mb-sm-0 mb-2">
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
-                                        <img src="../assets/img/icons/brands/slack.png" alt="slack" class="me-3" height="30" />
+                                        <img src="${contextPath}/frontend/assets/img/icons/brands/slack.png" alt="slack" class="me-3" height="30" />
                                     </div>
                                     <div class="flex-grow-1 row">
                                         <div class="col-9 mb-sm-0 mb-2">
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
-                                        <img src="../assets/img/icons/brands/github.png" alt="github" class="me-3" height="30" />
+                                        <img src="${contextPath}/frontend/assets/img/icons/brands/github.png" alt="github" class="me-3" height="30" />
                                     </div>
                                     <div class="flex-grow-1 row">
                                         <div class="col-9 mb-sm-0 mb-2">
@@ -89,7 +89,7 @@
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
                                         <img
-                                                src="../assets/img/icons/brands/mailchimp.png"
+                                                src="${contextPath}/frontend/assets/img/icons/brands/mailchimp.png"
                                                 alt="mailchimp"
                                                 class="me-3"
                                                 height="30"
@@ -109,7 +109,7 @@
                                 </div>
                                 <div class="d-flex">
                                     <div class="flex-shrink-0">
-                                        <img src="../assets/img/icons/brands/asana.png" alt="asana" class="me-3" height="30" />
+                                        <img src="${contextPath}/frontend/assets/img/icons/brands/asana.png" alt="asana" class="me-3" height="30" />
                                     </div>
                                     <div class="flex-grow-1 row">
                                         <div class="col-9 mb-sm-0 mb-2">
@@ -136,7 +136,7 @@
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
                                         <img
-                                                src="../assets/img/icons/brands/facebook.png"
+                                                src="${contextPath}/frontend/assets/img/icons/brands/facebook.png"
                                                 alt="facebook"
                                                 class="me-3"
                                                 height="30"
@@ -157,7 +157,7 @@
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
                                         <img
-                                                src="../assets/img/icons/brands/twitter.png"
+                                                src="${contextPath}/frontend/assets/img/icons/brands/twitter.png"
                                                 alt="twitter"
                                                 class="me-3"
                                                 height="30"
@@ -178,7 +178,7 @@
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
                                         <img
-                                                src="../assets/img/icons/brands/instagram.png"
+                                                src="${contextPath}/frontend/assets/img/icons/brands/instagram.png"
                                                 alt="instagram"
                                                 class="me-3"
                                                 height="30"
@@ -199,7 +199,7 @@
                                 <div class="d-flex mb-3">
                                     <div class="flex-shrink-0">
                                         <img
-                                                src="../assets/img/icons/brands/dribbble.png"
+                                                src="${contextPath}/frontend/assets/img/icons/brands/dribbble.png"
                                                 alt="dribbble"
                                                 class="me-3"
                                                 height="30"
@@ -220,7 +220,7 @@
                                 <div class="d-flex">
                                     <div class="flex-shrink-0">
                                         <img
-                                                src="../assets/img/icons/brands/behance.png"
+                                                src="${contextPath}/frontend/assets/img/icons/brands/behance.png"
                                                 alt="behance"
                                                 class="me-3"
                                                 height="30"

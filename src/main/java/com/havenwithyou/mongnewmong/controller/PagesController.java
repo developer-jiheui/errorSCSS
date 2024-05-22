@@ -2,6 +2,7 @@ package com.havenwithyou.mongnewmong.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 //@TODO A Controller for between pages
@@ -36,6 +37,22 @@ public class PagesController {
     @GetMapping(value = {"/education"})
     public String education() {return "pages/education";}
 
+    //Front pages, Login, Signup
+    @GetMapping(value = {"/login"})
+    public String login(){ return "pages/frontpages/login";}
+
+    @GetMapping(value = {"/register"})
+    public String signUp(){ return "pages/frontpages/register";}
+
+
+    @GetMapping(value = {"/forgotPw"})
+    public String pw(){ return "pages/frontpages/pw";}
+
+    @GetMapping(value = {"/pwCheck"})
+    public String pwCheck(){ return "pages/frontpages/pwCheck";}
+
+    @PostMapping(value = {"/pwCheck"})
+    public String pwCheckPost(){ return "pages/frontpages/pwCheck";}
 
     //서류 작성
     @GetMapping(value = {"/entrance"})
@@ -50,11 +67,8 @@ public class PagesController {
     @GetMapping(value = {"/transportation"})
     public String transportation() {return "pages/transportation";}
 
-    @GetMapping(value = {"/login"})
-    public String login(){ return "pages/login";}
 
-    @GetMapping(value = {"/signUp"})
-    public String signUp(){ return "pages/signUp";}
+
 
 
 }
