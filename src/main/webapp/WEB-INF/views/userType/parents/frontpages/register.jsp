@@ -10,47 +10,53 @@
 <jsp:include page="/WEB-INF/views/layout/header.jsp"/>
 <body>
 <!-- Content -->
-<div id="register">
-<div class="container-xxl" style="max-width:min-content;">
+
+<div class="container-xxl">
     <div class="authentication-wrapper authentication-basic container-p-y">
         <div class="authentication-inner">
-            <!-- Register -->
-            <div class="card" style="min-width: 400px">
-                <div class="card-body" style="padding: 8% 10%;">
+            <!-- Register Card -->
+            <div class="card">
+                <div class="card-body">
                     <!-- Logo -->
-                    <div class="app-brand justify-content-center big-brand">
-                        <a href="${contextPath}/pages/home" class="app-brand-link gap-2">
-                  <span class="app-brand-logo demo">
-                                  <img src="${contextPath}/frontend/assets/img/favicon/favicon.ico" style="height: 30px; width: 30px;">
+                    <div class="app-brand justify-content-center">
+                        <a href="index.html" class="app-brand-link gap-2">
+                 <div class="app-brand demo">
+                <a href="${contextPath}/pages/home" class="app-brand-link">
+              <span class="app-brand-logo demo">
+                <img src="${contextPath}/frontend/assets/img/favicon/favicon.ico" style="height: 30px; width: 30px;">
+              </span>
+                    <span class="app-brand-text demo menu-text fw-bolder ms-2">mummoo</span>
+                </a>
 
-                  </span>
-                            <span class="app-brand-text demo text-body fw-bolder big-brand-text">MUMMOO</span>
+                <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                    <i class="bx bx-chevron-left bx-sm align-middle"></i>
+                </a>
+            </div>
+                            <span class="app-brand-text demo text-body fw-bolder">Sneat</span>
                         </a>
                     </div>
-
                     <!-- /Logo -->
-                    <h4 class="mb-2">   </h4>
-                    <p class="mb-4">우리 댕댕이들의 이야기를 보러오세요❣️</p>
+                    <h4 class="mb-2">Adventure starts here 🚀</h4>
+                    <p class="mb-4">Make your app management easy and fun!</p>
 
-                    <form id="formAuthentication" class="mb-3" action="${contextPath}/pages/home" method="GET">
+                    <form id="formAuthentication" class="mb-3" action="index.html" method="POST">
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email or Username</label>
+                            <label for="username" class="form-label">Username</label>
                             <input
                                     type="text"
                                     class="form-control"
-                                    id="email"
-                                    name="email-username"
-                                    placeholder="Enter your email or username"
+                                    id="username"
+                                    name="username"
+                                    placeholder="Enter your username"
                                     autofocus
                             />
                         </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email" />
+                        </div>
                         <div class="mb-3 form-password-toggle">
-                            <div class="d-flex justify-content-between">
-                                <label class="form-label" for="password">Password</label>
-                                <a href="${contextPath}/pages/forgotPw">
-                                    <small>Forgot Password?</small>
-                                </a>
-                            </div>
+                            <label class="form-label" for="password">Password</label>
                             <div class="input-group input-group-merge">
                                 <input
                                         type="password"
@@ -63,30 +69,40 @@
                                 <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
                             </div>
                         </div>
+
                         <div class="mb-3">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="remember-me" />
-                                <label class="form-check-label" for="remember-me"> Remember Me </label>
+                                <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms" />
+                                <label class="form-check-label" for="terms-conditions">
+                                    I agree to
+                                    <a href="javascript:void(0);">privacy policy & terms</a>
+                                </label>
                             </div>
                         </div>
-                        <div class="mb-3">
-                            <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
-                        </div>
+                        <button class="btn btn-primary d-grid w-100">Sign up</button>
                     </form>
 
                     <p class="text-center">
-                        <span>New on our platform?</span>
-                        <a href="${contextPath}/pages/userType">
-                            <span>Create an account</span>
+                        <span>Already have an account?</span>
+                        <a href="${contextPath}/pages/login">
+                            <span>Sign in instead</span>
                         </a>
                     </p>
                 </div>
             </div>
-            <!-- /Register -->
+            <!-- Register Card -->
         </div>
     </div>
 </div>
+
+<!-- / Content -->
+<div class="buy-now">
+    <button type="button" class="btn btn-danger btn-buy-now" data-bs-toggle="modal"
+            data-bs-target="#modalLong">
+        <i class='bx bx-message-square-dots bx-md' ></i>
+    </button>
 </div>
+
 <!-- / Content -->
 
 

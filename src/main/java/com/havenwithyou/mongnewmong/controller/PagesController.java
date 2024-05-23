@@ -44,6 +44,9 @@ public class PagesController {
     @GetMapping(value = {"/register"})
     public String signUp(){ return "pages/frontpages/register";}
 
+    @GetMapping(value = {"/userType"})
+    public String userType(){ return "pages/frontpages/userType";}
+
 
     @GetMapping(value = {"/forgotPw"})
     public String pw(){ return "pages/frontpages/pw";}
@@ -53,6 +56,8 @@ public class PagesController {
 
     @PostMapping(value = {"/pwCheck"})
     public String pwCheckPost(){ return "pages/frontpages/pwCheck";}
+
+
 
     //서류 작성
     @GetMapping(value = {"/entrance"})
@@ -68,6 +73,14 @@ public class PagesController {
     public String transportation() {return "pages/transportation";}
 
 
+    //Admin
+
+
+
+    //Teachers
+
+
+    //Families
 
 
 
